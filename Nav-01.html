@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Style: 01</title>
+
+    <!-- Link CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link Javascript File and also Link Javascript Library -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+
+     <div class="container">
+        <header class="site-header">
+            <div class="header__content--flow">
+                <!-- Create 2 Sections Left and Right-->
+                <section class="header-content--left">
+                    <a href="#" class="brand-logo">
+                        <img src="logo-1.png" width="50px">
+                        <span class="logo-text">LOGO</span>
+                    </a>
+                    <button class="nav-toggle">
+                        <span class="toggle--icon"></span>
+                    </button>
+                </section>
+                <section class="header-content--right">
+                    <nav class="header-nav" role="navigation">
+                        <ul class="nav__list" aria-expanded="false">
+                            <li class="list-item">
+                                <a class="nav__link" href="#">Home</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="nav__link" href="#">About</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="nav__link" href="#">Products</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="nav__link" href="#">Links</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="nav__link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </header>
+    </div> 
+
+</body>
+</html>
